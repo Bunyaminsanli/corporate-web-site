@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             
             // Open WhatsApp with pre-filled message
-            const whatsappUrl = `https://wa.me/905538352754?text=${encodeURIComponent(message)}`;
+            const whatsappUrl = `https://wa.me/905551234567?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
             
             // Reset form after a short delay
@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (this.closest('footer')) {
                 e.preventDefault();
                 const defaultMessage = "Merhaba! Ev tüpü hizmetiniz hakkında bilgi almak istiyorum.";
-                const whatsappUrl = `https://wa.me/905538352754?text=${encodeURIComponent(defaultMessage)}`;
+                const whatsappUrl = `https://wa.me/905551234567?text=${encodeURIComponent(defaultMessage)}`;
                 window.open(whatsappUrl, '_blank');
             }
         });
